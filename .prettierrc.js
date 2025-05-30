@@ -2,12 +2,12 @@ module.exports = {
 	/**
 	 * https://prettier.io/docs/en/options.html#semicolons
 	 */
-	semi: true,
+	semi: false,
 
 	/**
 	 * https://prettier.io/docs/en/options.html#trailing-commas
 	 */
-	trailingComma: 'all',
+	trailingComma: 'es5',
 
 	/**
 	 * https://prettier.io/docs/en/options.html#bracket-spacing
@@ -32,7 +32,7 @@ module.exports = {
 	/**
 	 * https://prettier.io/docs/en/options.html#quotes
 	 */
-	singleQuote: true,
+	singleQuote: false,
 
 	/**
 	 * https://prettier.io/docs/en/options.html#quote-props
