@@ -1,0 +1,1 @@
+cd ~/.n8n/custom/ && npm install /mnt/code/mrowrpurr/n8n-nodes-starter/
