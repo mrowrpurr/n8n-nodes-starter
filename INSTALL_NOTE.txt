@@ -1,1 +1,1 @@
-cd ~/.n8n/custom/ && npm install /mnt/code/mrowrpurr/n8n-nodes-starter/
+docker compose down && docker compose up -d && docker compose -p n8n-docker-compose exec n8n sh -c "cd ~/.n8n/custom/ && npm install /mnt/code/mrowrpurr/n8n-nodes-starter/"
