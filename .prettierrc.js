@@ -7,7 +7,7 @@ module.exports = {
 	/**
 	 * https://prettier.io/docs/en/options.html#trailing-commas
 	 */
-	trailingComma: 'es5',
+	trailingComma: "es5",
 
 	/**
 	 * https://prettier.io/docs/en/options.html#bracket-spacing
@@ -27,7 +27,7 @@ module.exports = {
 	/**
 	 * https://prettier.io/docs/en/options.html#arrow-function-parentheses
 	 */
-	arrowParens: 'always',
+	arrowParens: "always",
 
 	/**
 	 * https://prettier.io/docs/en/options.html#quotes
@@ -37,15 +37,15 @@ module.exports = {
 	/**
 	 * https://prettier.io/docs/en/options.html#quote-props
 	 */
-	quoteProps: 'as-needed',
+	quoteProps: "as-needed",
 
 	/**
 	 * https://prettier.io/docs/en/options.html#end-of-line
 	 */
-	endOfLine: 'lf',
+	endOfLine: "lf",
 
 	/**
 	 * https://prettier.io/docs/en/options.html#print-width
 	 */
-	printWidth: 100,
-};
+	printWidth: 180,
+}
