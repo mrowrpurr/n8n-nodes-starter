@@ -32,7 +32,9 @@
 	],
 	"n8n": {
 		"n8nNodesApiVersion": 1,
-		"credentials": [],
+		"credentials": [
+			"dist/credentials/GlobalVariablesCredentials.credentials.js"
+		],
 		"nodes": [
 			"dist/nodes/ExampleNode/ExampleNode.node.js"
 		]
