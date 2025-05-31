@@ -36,7 +36,7 @@
 			"dist/credentials/GlobalVariablesCredentials.credentials.js"
 		],
 		"nodes": [
-			"dist/nodes/ExampleNode/ExampleNode.node.js"
+			"dist/nodes/GlobalVariables/GlobalVariables.node.js"
 		]
 	},
 	"devDependencies": {
