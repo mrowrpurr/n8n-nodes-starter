@@ -5,7 +5,7 @@ export class GlobalVariables implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: "Global Variables",
 		name: "globalVariables",
-		icon: "fa:globe",
+		icon: "file:GlobalVariables.svg",
 		group: ["transform", "output"],
 		version: 1,
 		description: "Access global variables from credentials",
