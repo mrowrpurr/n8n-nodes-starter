@@ -5,11 +5,13 @@ export class GlobalVariables implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: "Global Variables",
 		name: "globalVariables",
-		icon: "file:GlobalVariables.svg",
+		icon: "fa:file-code",
+		// icon: "file:GlobalVariables.svg",
 		group: ["transform", "output"],
 		version: 1,
 		description: "Access global variables from credentials",
-		subtitle: '={{$parameter["putAllInOneKey"] ? "Nested" : "Flat"}}',
+		// subtitle: '={{$parameter["putAllInOneKey"] ? "Nested" : "Flat"}}',
+		subtitle: '={{$parameter["putAllInOneKey"] ? "$" + $parameter["variablesKeyName"] : ""}}',
 		defaults: {
 			name: "Global Variables",
 		},
