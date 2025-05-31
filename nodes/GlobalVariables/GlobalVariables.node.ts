@@ -46,6 +46,8 @@ export class GlobalVariables implements INodeType {
 	}
 
 	async execute(this: IExecuteFunctions): Promise<INodeExecutionData[][]> {
+		this.helpers.httpRequest
+		
 		const credentials = (await this.getCredentials(GLOBAL_VARIABLES_CREDENTIALS_NAME)) as unknown as GlobalVariablesCredentialsData
 
 		const variables: Record<string, any> = {}
